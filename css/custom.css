@@ -1,0 +1,310 @@
+html {
+/*		background: url(../img/mooning.png) repeat 0 0;*/
+		background: url(../img/grey_wash_wall.png) repeat 0 0;
+}
+
+@-webkit-keyframes flyin {
+	0%{margin-left: -1000px;
+	margin-right: 1000px;}
+	100%{margin-left: 0;
+		margin-right: 0;}
+}
+
+@-webkit-keyframes flyinone {
+	0%{margin-left: -1000px;
+	margin-right: 1000px;}
+	100%{margin-left: -180px;
+		margin-right: 180px;}
+}
+
+body {
+	font-family:"Open Sans";
+/*		background: url(../img/mooning.png) repeat 0 0;*/
+		background: url(../img/grey_wash_wall.png) repeat 0 0;
+}
+
+h2 {
+	color: #200772;
+
+}
+
+p {
+	font-size: 20px;
+	line-height: 30px;
+	color: #333;
+
+}
+
+div.container {
+  margin-top: 33px;
+  margin-bottom: 200px;
+  background-color: #fff;
+/*		background: url(../img/mooning.png) repeat 0 0;*/
+		background: url(../img/grey_wash_wall.png) repeat 0 0;
+  border: none;
+  width: 1400px;
+
+}
+
+div.container.top {
+	margin-top: 200px;
+	margin-bottom: 0;
+	background: #fff;
+	border-radius: 20px;
+	box-shadow: 0 0 3px 2px #AAA;
+	width: 1400px;
+}
+
+div.container.left {
+	display: inline-block;
+	width: 12%;
+	border-radius: 20px;
+	margin-bottom: 0;
+	margin-top: 0;
+/*	box-shadow: 0 0 3px 2px #AAA;*/
+	float: left;
+	margin-right: 20px;
+	height: 100%;
+	border: none;
+}
+
+div.container.right {
+	display: inline-block;
+	width: 86%;
+	margin-bottom: 0;
+	margin-top: 0;
+	vertical-align: top;
+	height: 630px;
+	background: #fff;
+	float: left;
+	border-radius: 20px;
+	box-shadow: 0 0 3px 2px #AAA;
+/*	margin-left: 170px;*/
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+/* Track */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px #200772; 
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: #200772; 
+    -webkit-box-shadow: inset 0 0 6px #200772; 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: #200772; 
+}
+
+
+
+div.page-header{
+margin: 0;
+background-image: linear-gradient(150 , rgb(242,237,242) 88%, rgb(255,255,255) 20%);
+background-image: -o-linear-gradient(150 , rgb(242,237,242) 88%, rgb(255,255,255) 20%);
+background-image: -moz-linear-gradient(150 , rgb(242,237,242) 88%, rgb(255,255,255) 20%);
+background-image: -webkit-linear-gradient(150 , rgb(242,237,242) 88%, rgb(255,255,255) 20%);
+background-image: -ms-linear-gradient(150 , rgb(242,237,242) 88%, rgb(255,255,255) 20%);
+
+background-image: -webkit-gradient(
+	linear,
+	150 top,
+	left top,
+	color-stop(0.88, rgb(242,237,242)),
+	color-stop(0.2, rgb(255,255,255))
+);
+height: 181px;
+padding-bottom: 0;
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+}
+
+.title {
+	display: inline-block;
+	border-top-left-radius: 20px;
+}
+.titletop {
+	padding-left: 30px;
+	padding-top: 25px;
+	display: block;
+	font-family:'Open Sans';
+	font-size: 100px;
+	font-weight: 800;
+	text-shadow: 2px 2px 5px #444;
+	color: #777;
+
+}
+
+.titlebottom {
+	padding-top: 0px;
+	padding-bottom: 20px;
+	padding-left: 200px;
+	display: block;
+	letter-spacing: 20px;
+}
+
+.contact{
+	list-style-type: none;
+	float: right;
+	font-size: 30px;
+	margin-right: 30px;
+	margin-top: 140px;
+}
+
+.contactme{
+	display: inline-block;
+	font-size: 30px;
+}
+
+.contactme a{
+	text-decoration: none;
+}
+
+.myface{ 
+display: inline-block;
+float: right;
+border-top-right-radius: 20px;
+border-bottom-right-radius: 20px;
+border: 1px solid #ccc;
+padding: 10px;
+
+	}
+
+h1 small {
+	vertical-align: top;
+	color: #200772;
+	font-size: 35px;
+}
+
+li a {
+  height: 130px;
+  font-size: 25px; /*size of the tab writing*/
+
+/*  color: #000;*/
+}
+
+.tabs-left>.nav-tabs>li>a, .tabs-right>.nav-tabs>li>a {
+min-width: 74px;
+/*margin-right: 0;*/
+margin-bottom: 10px;
+text-align: center;
+border-top-right-radius: 20px;
+border-top-left-radius: 20px;
+border-bottom-right-radius: 20px;
+border-bottom-left-radius: 20px;
+box-shadow: 0 0 3px 2px #AAA;
+
+}
+
+.tabs-left>.nav-tabs>li:first-child, .tabs-right>.nav-tabs>li:first-child {
+  	-webkit-animation-name: flyinone;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-iteration-count: 1;
+	-webkit-animation-timing-function: linear;
+
+}
+
+.tabs-left>.nav-tabs>li:nth-child(2), .tabs-right>.nav-tabs>li:nth-child(2) {
+  	-webkit-animation-name: flyin;
+	-webkit-animation-duration: 1.5s;
+	-webkit-animation-iteration-count: 1;
+	-webkit-animation-timing-function: linear;
+
+}
+
+.tabs-left>.nav-tabs>li:nth-child(3), .tabs-right>.nav-tabs>li:nth-child(3) {
+  	-webkit-animation-name: flyin;
+	-webkit-animation-duration: 2s;
+	-webkit-animation-iteration-count: 1;
+	-webkit-animation-timing-function: linear;
+
+}
+
+.tabs-left>.nav-tabs>li:nth-child(4), .tabs-right>.nav-tabs>li:nth-child(4) {
+  	-webkit-animation-name: flyin;
+	-webkit-animation-duration: 2.5s;
+	-webkit-animation-iteration-count: 1;
+	-webkit-animation-timing-function: linear;
+
+}
+
+
+.nav li a {
+ /* text-indent: 20px;*/
+  line-height: 60px;
+}
+
+li a {
+	background-image: linear-gradient(150 , rgb(242,237,242) 88%, rgb(255,255,255) 20%);
+	background-image: -o-linear-gradient(150 , rgb(242,237,242) 88%, rgb(255,255,255) 20%);
+	background-image: -moz-linear-gradient(150 , rgb(242,237,242) 88%, rgb(255,255,255) 20%);
+	background-image: -webkit-linear-gradient(150 , rgb(242,237,242) 88%, rgb(255,255,255) 20%);
+	background-image: -ms-linear-gradient(150 , rgb(242,237,242) 88%, rgb(255,255,255) 20%);
+
+	background-image: -webkit-gradient(
+		linear,
+		150 top,
+		left top,
+		color-stop(0.88, rgb(242,237,242)),
+		color-stop(0.2, rgb(255,255,255))
+		);
+	border-right: none;
+	color: #333;
+	text-shadow: -1px -1px 0px rgba(0,0,0,.5);
+	-webkit-transition: color .5s;
+
+}
+
+li.active a.tabtext {
+	color: #200772;
+	text-align: center;
+	-webkit-transition: color .5s;
+}
+
+li.tabsleft {
+	-webkit-transition: margin .6s;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+
+li.active {
+	margin-left: 	-180px;
+	margin-right: 	180px;
+	-webkit-transition: margin .6s;
+}
+
+ul.nav.nav-tabs{
+	margin-bottom: 0;
+	width: 100%;
+	border-radius: 20px;
+	margin-right: 0;
+	border: none;
+}
+
+div.tab-content{
+	margin: 40px;
+	margin-top: 20px;
+	width: 1100px;
+	height: 630px;
+	overflow: auto;
+}
+
+i.icon-home.icon-2x,
+i.icon-file.icon-2x,
+i.icon-tumblr.icon-2x
+{
+	display: block;
+	text-align: center;
+	text-shadow: -1px -1px 0px rgba(0,0,0,.5);
+	margin-top: 20px;
+
+}

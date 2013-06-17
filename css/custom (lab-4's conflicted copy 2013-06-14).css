@@ -1,0 +1,126 @@
+
+body {
+	font-family:"Varela Round";
+	background-color: #eee;
+}
+
+p {
+	font-size: 20px;
+}
+
+div.container {
+  margin-top: 200px;
+  margin-bottom: 200px;
+  background-color: #fff;
+  box-shadow: 0 0 3px 2px #AAA;
+  border-radius: 20px;
+}
+
+div.page-header{
+margin: 0;
+background-image: linear-gradient(150 , rgb(242,237,242) 88%, rgb(255,255,255) 20%);
+background-image: -o-linear-gradient(150 , rgb(242,237,242) 88%, rgb(255,255,255) 20%);
+background-image: -moz-linear-gradient(150 , rgb(242,237,242) 88%, rgb(255,255,255) 20%);
+background-image: -webkit-linear-gradient(150 , rgb(242,237,242) 88%, rgb(255,255,255) 20%);
+background-image: -ms-linear-gradient(150 , rgb(242,237,242) 88%, rgb(255,255,255) 20%);
+
+background-image: -webkit-gradient(
+	linear,
+	150 top,
+	left top,
+	color-stop(0.88, rgb(242,237,242)),
+	color-stop(0.2, rgb(255,255,255))
+);
+height: 214px;
+padding-bottom: 0;
+}
+
+.title {
+	display: inline-block;
+}
+.titletop {
+	padding-left: 20px;-=
+	padding-top: 20px;
+	display: block;
+}
+
+.titlebottom {
+	padding-bottom: 20px;
+	padding-left: 20px;
+	display: block;
+}
+
+.myface{ 
+display: inline-block;
+float: right;
+border-top-right-radius: 20px;
+	}
+
+small {
+	vertical-align: top;
+}
+
+li {
+/*	border-top: 1px solid black;
+	border-left: 1px solid black;
+	border-right: 1px solid black;*/
+}
+
+li a {
+  height: 130px;
+  font-size: 25px; /*size of the tab writing*/
+
+/*  color: #000;*/
+}
+
+.tabs-left>.nav-tabs>li>a, .tabs-right>.nav-tabs>li>a {
+min-width: 74px;
+/*margin-right: 0;*/
+margin-bottom: 0px;
+}
+
+.tabs-left>.nav-tabs>li>a:hover, .tabs-right>.nav-tabs>li>a:hover {
+min-width: 74px;
+/*margin-right: 0;*/
+margin-bottom: 0px;
+border-right: none;
+}
+
+.nav li a {
+  text-indent: 10px;
+  line-height: 130px;
+}
+
+li.active {
+	border-right: none;
+	margin-left: -20px;
+}
+
+li a {
+background-image: linear-gradient(150 , rgb(0,0,139) 88%, rgb(255,255,255) 20%);
+background-image: -o-linear-gradient(150 , rgb(0,0,139) 88%, rgb(255,255,255) 20%);
+background-image: -moz-linear-gradient(150 , rgb(0,0,139) 88%, rgb(255,255,255) 20%);
+background-image: -webkit-linear-gradient(150 , rgb(0,0,139) 88%, rgb(255,255,255) 20%);
+background-image: -ms-linear-gradient(150 , rgb(0,0,139) 88%, rgb(255,255,255) 20%);
+
+background-image: -webkit-gradient(
+	linear,
+	150 top,
+	left top,
+	color-stop(0.88, rgb(242,237,242)),
+	color-stop(0.2, rgb(255,255,255))
+);
+border-right: none;
+}
+
+li.active a.tabtext {
+	border-right: none;
+}
+
+ul.nav.nav-tabs{
+	margin-bottom: 0;
+}
+
+div.tab-content{
+	padding: 30px;
+}
